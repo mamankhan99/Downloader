@@ -50,8 +50,6 @@ public class MainActivity extends AppCompatActivity {
         registerReceiver(onDownloadComplete, new IntentFilter(DownloadManager.ACTION_DOWNLOAD_COMPLETE));
         downloadButton = findViewById(R.id.download_button);
         editText = findViewById(R.id.edit_view_main);
-        //String URLS = "https://file-examples.com/wp-content/uploads/2017/10/file-example_PDF_1MB.pdf,https://file-examples.com/wp-content/uploads/2017/10/file_example_JPG_100kB.jpg,https://file-examples.com/wp-content/uploads/2017/04/file_example_MP4_480_1_5MG.mp4";
-        Log.e("link",editText.getText().toString());
         downloadIDs = new ArrayList<>();
         downloadButton.setOnClickListener(new View.OnClickListener() {
             @Override
