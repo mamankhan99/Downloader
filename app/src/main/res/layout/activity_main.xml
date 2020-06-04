@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_marginTop="@android:dimen/app_icon_size"
+        android:id="@+id/text_view_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter comma seperated links below:"/>
+    <EditText
+        android:id="@+id/edit_view_main"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="text"/>
+    <Button
+        android:id="@+id/download_button"
+        android:layout_gravity="center_horizontal"
+        android:text="Download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
